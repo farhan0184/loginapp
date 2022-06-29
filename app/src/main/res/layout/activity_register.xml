@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="299dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="58dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="545dp"
+        android:text="Registration Page"
+        android:textColor="#CF2929"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="372dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="389dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="322dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/RePassword"-->
+<!--        android:layout_width="363dp"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="26dp"-->
+<!--        android:layout_marginEnd="22dp"-->
+<!--        android:layout_marginBottom="249dp"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text="Re-Password"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteX="20dp"-->
+<!--        tools:layout_editor_absoluteY="327dp" />-->
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="174dp"
+        android:text="Registrater"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="casual"
+        android:text="Already Register? Login Here"
+        android:textColor="#530303"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="483dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="37dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout  xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+
+<!--    tools:context=".Register">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="299dp"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:text="Registration Page"-->
+<!--        android:textColor="#CF2929"-->
+<!--        android:textSize="34sp"-->
+<!--        android:textStyle="bold|italic"-->
+<!--        tools:layout_editor_absoluteX="56dp"-->
+<!--        tools:layout_editor_absoluteY="95dp"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextTextPersonName"-->
+<!--        android:layout_width="372dp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text="Email"-->
+<!--        tools:layout_editor_absoluteX="14dp"-->
+<!--        tools:layout_editor_absoluteY="193dp"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextTextPersonName3"-->
+<!--        android:layout_width="367dp"-->
+<!--        android:layout_height="49dp"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text="Password"-->
+<!--        tools:layout_editor_absoluteX="16dp"-->
+<!--        tools:layout_editor_absoluteY="260dp"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextTextPersonName4"-->
+<!--        android:layout_width="363dp"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text="Re-Password"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteX="20dp"-->
+<!--        tools:layout_editor_absoluteY="327dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Registrater"-->
+<!--        tools:layout_editor_absoluteX="137dp"-->
+<!--        tools:layout_editor_absoluteY="401dp"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView3"-->
+<!--        android:layout_width="218dp"-->
+<!--        android:layout_height="28dp"-->
+<!--        android:fontFamily="casual"-->
+<!--        android:text="Already Register? Login Here"-->
+<!--        android:textColor="#530303"-->
+<!--        tools:layout_editor_absoluteX="96dp"-->
+<!--        tools:layout_editor_absoluteY="483dp"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout >-->
